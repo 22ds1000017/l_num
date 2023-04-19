@@ -8,21 +8,19 @@ TDS - Graded Assignment 8
 """)
 
 
-for i in range(1,4,1):
-   number1 = st.number_input('Enter the first number')
-   number2 = st.number_input('Enter the second number')
-   number3 = st.number_input('Enter the third number')
-for i in range(1,3,1):
-   st.write('The first number is ', number+str(i))
+number1 = st.number_input('Enter the first number')
+st.write("1.", number1)
+number2 = st.number_input('Enter the second number')
+st.write("2.", number2)
+number3 = st.number_input('Enter the third number')
+st.write("3.", number3)
 
-
-
-if (number_list[1] >= number_list[2]) and (number_list[1] >= number_list[3]):
-   largest = number_list[1]
-elif (number_list[2] >= number_list[1]) and (number_list[2] >= number_list[3]):
-   largest = number_list[2]
+if (number1 >= number2) and (number1 >= number3):
+   largest = number1
+elif (number2 >= number1) and (number2 >= number3):
+   largest = number2
 else:
-   largest = number_list[3]
+   largest = number3
 
 
 
