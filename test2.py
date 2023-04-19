@@ -1,6 +1,4 @@
 
-def main()
-
     import streamlit as st
 
     number1 = st.number_input('Enter the first number')
@@ -24,5 +22,3 @@ def main()
         st.write("Sum: ", sum(inputs))
     except:
         st.title("Enter some numbers")
-
-main()
