@@ -7,13 +7,13 @@ This app computes the largest of threee numbers.
 TDS - Graded Assignment 8
 """)
 
-number= []
-for i in range(3):
-   number[0] = st.number_input('Enter the first number')
-   number[1] = st.number_input('Enter the second number')
-   number[2] = st.number_input('Enter the third number')
-for i in range(3):
-   st.write('The first number is ', number[i])
+
+for i in range(1,4,1):
+   number1 = st.number_input('Enter the first number')
+   number2 = st.number_input('Enter the second number')
+   number3 = st.number_input('Enter the third number')
+for i in range(1,3,1):
+   st.write('The first number is ', number+str(i))
 
 
 
