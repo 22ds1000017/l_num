@@ -20,5 +20,3 @@ else:
 #displaying the largest number
 
 st.write("The largest number is", largest)
-
-"""
