@@ -7,7 +7,7 @@ This app computes the largest of threee numbers.
 TDS - Graded Assignment 8
 """)
 
-for i in range(0,3,1)
+for i in range(0,3,1):
    number = st.number_input('Enter the first number')
    number+str(i)= number 
    st.write('The first number is ', number+str(i))
