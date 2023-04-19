@@ -6,18 +6,19 @@ st.write('The first number is ', number1)
 number2 = st.slider('Enter the second number', 0, 2000, 1)
 st.write("second number", number2)
 
-@st.cache(allow_output_mutation=True)
-def Nums():
-    return []
+number3 = st.slider('Enter the third  number', 0,10000, 1)
+st.write("third number ", number3)
 
-nums = Nums()
-num = st.sidebar.number_input("Input Number")
-if st.sidebar.button("Add number"):
-    nums.append(num)
+if (number2 >= number2) and (number1 >= number3):
+   largest = number1
+elif (number2 >= number1) and (number2 >= number3):
+   largest = number2
+else:
+   largest = number3
 
-try:
-    inputs = nums
-    st.table(inputs)
-    st.write("Sum: ", sum(inputs))
-except:
-    st.title("Enter some numbers")
+
+#displaying the largest number
+
+st.write("The largest number is", largest)
+
+"""
