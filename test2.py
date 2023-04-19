@@ -8,7 +8,7 @@ TDS - Graded Assignment 8
 """)
 
 number_list = []
-for i in range(0,3,1):
+for i in range(3):
    number_in = st.number_input('Enter the first number')
    number_list.append(number_in)
    st.write('The first number is ', number_list(i))
