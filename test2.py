@@ -2,7 +2,9 @@ import streamlit as st
 
 st.write("""
 # Largest Number App
-This app computes the largest of threee numbers 
+This app computes the largest of threee numbers.
+
+TDS - Graded Assignment 8
 """)
 
 number1 = st.number_input('Enter the first number')
